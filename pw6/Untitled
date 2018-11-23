@@ -1,0 +1,15 @@
+public function search($query = null, $user_id = null, $per_page = 50) {
+ $args = array(
+ 'method' => 'flickr.photos.search',
+ 'api_key' => $this->apiKey,
+ 'text' => urlencode($query),
+ 'user_id' => $user_id,
+ 'per_page' => $per_page,
+ 'format' => 'php_serial'
+ );
+ $url = 'http://flickr.com/services/rest/?';
+ $search = $url.http_build_query($args);
+ $result = $this->file_get_contents_curl($search);
+ if ($format == 'php_serial') $result = unserialize($result);
+ return $result;
+ }

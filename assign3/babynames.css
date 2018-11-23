@@ -1,0 +1,19 @@
+#test{
+  background-color: lightgray;
+  padding :30px;
+  margin-top:50px;
+  margin-left: 50px;
+  border-radius: 10px;
+  opacity:0.8;
+}
+
+h1
+{
+  color:blue;
+  text-aign:center;
+}
+
+
+table{
+  margin:0 auto;
+}

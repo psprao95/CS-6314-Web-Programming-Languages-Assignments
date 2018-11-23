@@ -1,0 +1,79 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="validate_orig.css" type="text/css">
+
+  <title>Signup</title>
+</head>
+
+
+<body>
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-3"></div>
+
+    <div class="col-sm-6">
+      <div id="user">
+
+        <h1>Sign Up</h1>
+        <p>Please fill this form to create an account!</p>
+
+        <hr>
+        <br>
+
+        <form onsubmit="return validateForm()">
+
+          <div class="row">
+
+            <div class=col-sm-6>
+              <input type="text"  id="f_name" class="form-control" placeholder="first name">
+              <span id="fname_error"></span>
+            </div>
+
+            <div class=col-sm-6>
+              <input type="text"  id="l_name" class="form-control" placeholder="last Name">
+              <span id="lname_error"></span>
+            </div>
+
+          </div>
+          <br>
+
+          <input type="email"  id ="mail" class="form-control"  placeholder="email">
+          <span id="mail_error"></span><br/>
+
+          <input type="text"  id="u_name" class="form-control" placeholder="username">
+          <span id="uname_error"></span><br/>
+
+          <input type="password"  id="pwd" class="form-control"  placeholder="password">
+          <span id="pwd_error"></span><br/>
+
+          <input type="password"  id="repwd" class="form-control"  placeholder="confirm password">
+          <span id="repwd_error"></span><br/>
+
+            <input type="checkbox" id="terms"> I accept the <a href="#service">
+              Terms of Use</a> and <a href="#privacy">Privacy Policy</a><br/>
+
+
+          <div class="button">
+          <input type="submit" value="Create account">
+        </div>
+
+        </form>
+
+      </div>
+    </div>
+
+
+    <div class="col-sm-3"></div>
+
+  </div>
+</div>
+
+<script src="validate_orig.js" type="text/javascript"></script>
+
+</body>
+
+
+</html>
