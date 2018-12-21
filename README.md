@@ -1,4 +1,8 @@
-CS 6314 - Web Programming Languages -  Fall 2018
+#CS 6314 
+
+Course Title: Web Programming Languages 
+
+Term: Fall 2018
 
 Instructor: Prof. Nurcan Yuruk
 
