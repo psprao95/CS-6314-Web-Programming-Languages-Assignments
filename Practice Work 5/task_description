@@ -1,0 +1,37 @@
+
+CS 6314.002 Practice Work – 5
+
+Due date:  October 3, 2018, 11:59pm
+
+1.	login.html - Create a form that contains two input fields: username and password. When the form is submitted, it should go to login.php
+
+2.	login.php
+
+Check if both fields are given. If they are given, check username and password with database and store user information (username) in a session variable if both are correct. Redirect user to books.php.
+If user input is missing in one of the input fields or username/password doesn’t match with database entries, redirect user to login.html. You don’t need to display any error messages.
+
+3.	books.php
+
+If the user has signed in, show the list of the books and show the search box. Otherwise, take the user to login.html. On the books listing, include a link/button for each book for adding it to the cart.
+
+4.	cart.php
+
+Add the selected book to the cart. You can implement the cart functionality by using a database table. 
+
+shoppingcart (UserName, BookID)
+
+If the user attempts to add the same book to the cart, display an info message that says the book is already in the cart.
+
+Show the book titles that are in the cart along with their prices. Show cart total. 
+
+At the end of the page, include a link (“Continue Shopping”) for books.php.
+
+5.	logout.php
+
+Sign out the user by destroying session variables.
+
+
+
+
+
+
