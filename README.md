@@ -13,3 +13,10 @@ Web Technologies: HTML, CSS, JavaScript, jQuery, AJAX, XML, JSON, PHP, Restful A
 Databases: MySQL, MongoDB
 
 All assignments hosted on MAMP
+
+Midterm: 89/100
+
+Final: 82/100
+
+Grade Achieved: A-
+
