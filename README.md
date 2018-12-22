@@ -18,5 +18,7 @@ Midterm: 89/100
 
 Final: 82/100
 
+Project: 93/100
+
 Grade Achieved: A-
 
