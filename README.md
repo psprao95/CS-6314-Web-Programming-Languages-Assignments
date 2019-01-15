@@ -1,14 +1,12 @@
-# CS 6314 
+## CS 6314 - Web Programming languages 
 
-Course Title: Web Programming Languages 
+Course Section: CS 6314.002
 
 Term: Fall 2018
 
 Instructor: Prof. Nurcan Yuruk
 
-Assignments and Homeworks
-
-Web Technologies: HTML, CSS, JavaScript, jQuery, AJAX, XML, JSON, PHP, Restful API's
+Web Technologies: HTML, CSS, JavaScript, jQuery, AJAX, XML, JSON, PHP, Web Service (Rest and Soap)
 
 Databases: MySQL, MongoDB
 
