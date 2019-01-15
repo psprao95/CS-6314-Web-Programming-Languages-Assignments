@@ -1,4 +1,4 @@
-## CS 6314.001/002 - Assignment 1
+## CS 6314.001/002 - Assignment 1 - Personal Homepage
 Due Date: September 7, 2018, 11:59 PM
 
 1. Create your personal homepage  (file should be named index.html) and upload it to utdallas.edu. Instructions for uploading process are provided below.
