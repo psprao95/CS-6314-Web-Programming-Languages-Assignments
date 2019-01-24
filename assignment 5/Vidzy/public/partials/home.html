@@ -1,0 +1,19 @@
+
+<h1>Welcome to MovieWorld</h1>
+
+
+<p>
+    <a href="/#/add-video">Add a Video</a>
+</p>
+<li ng-repeat='video in videos' list-style-type="none">
+
+    <a href="/#/video/{{video._id}}">
+            {{video.title}}
+    </a>
+
+    <a href="/#/video/delete/{{video._id}}">
+            <i class="glyphicon glyphicon-remove"></i>
+        </a><br>
+    <img src="/images/{{video._id}}.jpg" height="200px" width="200px" float="left"><br/><br/><br/>
+
+</li>
